@@ -90,5 +90,60 @@ sahin.bilgiAl()
 // ------------------
 // Normalde bmw=araba() dediğimizde () boş constructor'ı çağırıyor. Constructor aslında init diyebiliriz.
 
-
 var mercedes = Araba(renk: "Kırmızı", hiz: 100, calisiyorMu: true)
+
+
+
+class Fonksiyonlar {
+    //Geri dönüş değeri olmayan ( void )
+    func selamla1(){
+        let sonuc = "Merhaba Ahmet"
+        print(sonuc)
+    }
+    
+    //Geri dönüş değeri olan ( return )
+    func selamla2() -> String {
+        let sonuc = "Merhaba Ahmet"
+        return sonuc
+    }
+    
+    //parametre
+    func selamla3(isim:String){
+        let sonuc = "Merhaba \(isim)"
+        print(sonuc)
+    }
+    
+    func toplama(sayi1:Int,sayi2:Int) -> Int {
+        let toplam = sayi1 + sayi2
+        return toplam
+    }
+    
+    //Overloading
+    func carpma(sayi1:Int,sayi2:Int) {
+        print("Çarpma : \(sayi1 * sayi2)")
+    }
+    
+    func carpma(sayi1:Double,sayi2:Double) {
+        print("Çarpma : \(sayi1 * sayi2)")
+    }
+    
+    func carpma(sayi1:Int,sayi2:Int,isim:String) {
+        print("Çarpma : \(sayi1 * sayi2) - İşlemi yapan : \(isim)")
+    }
+}
+
+let f = Fonksiyonlar()
+
+f.selamla1()
+
+let gelenSonuc = f.selamla2()
+print("Gelen Sonuç : \(gelenSonuc)")
+
+
+f.selamla3(isim: "Zeynep")
+
+
+let gelenToplam = f.toplama(sayi1: 10, sayi2: 20)
+print("Gelen Toplam : \(gelenToplam)")
+
+f.carpma(sayi1: 3, sayi2: 5, isim: "Zeynep")
