@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  Project_02_Pizza
+
+  Created by Ali Osman Öztürk on 10.05.2025.
+  
+*/
+
+"pizzaBaslik" = "Etli Peynirli";
+"peynirYazi" = "Peynir";
+"sucukYazi" = "Sucuk";
+"zeytinYazi" = "Zeytin";
+"biberYazi" = "Biber";
+"teslimatSure" = "20 dk";
+"teslimatBaslik" = "Teslimat";
+"pizzaAciklama" = "Et sever, pizzanla tanışmaya hazırlan !";
+"fiyat" = "180 ₺";
+"buttonYazi" = "SEPETE EKLE";
