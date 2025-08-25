@@ -22,7 +22,7 @@ class Araba {
     }
     
     func durdur() {
-        calisiyorMu = true
+        calisiyorMu = false
         hiz = 0
     }
     
