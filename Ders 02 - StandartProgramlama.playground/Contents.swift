@@ -18,7 +18,7 @@ print("a <= b : \(a <= b)")
 print("a > b || x > y : \(a > b || x > y)") // OR (VEYA), false - false: false, diğer durumlar true
 print("a > b && x > y : \(a > b && x > y)") // AND (VE), true - true: true, diğer durumlar false
 
-// If
+// MARK: If
 var yas = 19
 var isim = "Mehmet"
 
@@ -54,7 +54,7 @@ if sonuc == 9 || sonuc == 10 {
 }
 
 
-// Switch
+// MARK: Switch
 var gun = 3
 
 switch gun {
@@ -69,7 +69,7 @@ switch gun {
 }
 
 
-// For Döngüsü
+// MARK: For Döngüsü
 for x in 1...3 { // 1 er 1 er artar.
     print("x Döngü değeri: \(x)")
 }
